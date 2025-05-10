@@ -8,7 +8,7 @@ function MainPage() {
   return (
     <div>
         <Header/>
-        <Banner/>
+      
         <Collection/>
         <Footer/>
     </div>

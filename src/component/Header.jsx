@@ -21,7 +21,7 @@ function Header() {
          </div>
           <div className='right'>
             SignUp/SignIn
-            <div className='cart'>Cart</div>
+            <div>Cart</div>
           </div>
     </div>
   )
