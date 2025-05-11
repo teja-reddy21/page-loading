@@ -2,7 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer-section'>
+      <div className='banner-box'>
+        <img src="assets/footer.png" alt="bannner"/>
+      </div>
+    </div>
   )
 }
 

@@ -2,7 +2,10 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div>  Banner
+    <div className='banner-section'>
+      <div className='banner-box'>
+        <img src="assets/GentsBanner.gif" alt="bannner"/>
+      </div>
     </div>
   )
 }

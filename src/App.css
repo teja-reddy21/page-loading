@@ -12,11 +12,18 @@
 display: flex;
 justify-content: space-between;
 padding: 10px;
+background-color: rgb(121, 23, 23);
+}
+.search-bar input{
+  padding: 10px;
+  width: 20rem;
+  margin-right:  40px;
+
 }
 .center ul li{
   list-style: none;
   display: inline-flex;
-margin: 0px 10px;
+margin: 10px 20px;
 }
 .left{
   flex: 2;
@@ -32,4 +39,27 @@ margin: 0px 10px;
   display: flex;
   justify-content: space-between;
   padding: 0px 10px;
+  margin: 10px;
+}
+.banner-section{
+  margin: 10px 0px;
+}
+.banner-box img{
+width: 100%;
+}
+.men-images {
+  display: flex;
+  gap: 10px;
+  margin: 0px 10px;
+}
+.men-images img{
+  width: 220px;
+  height: 220px;
+}
+.ladies-images{
+  display: flex;
+  width: 220px;
+  height: 220px;
+  gap: 10px;
+  margin: 0px 10px;
 }
