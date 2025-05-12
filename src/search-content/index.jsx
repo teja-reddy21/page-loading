@@ -1,12 +1,16 @@
 import { useState , useEffect} from 'react'
 import './style.css'
 
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 
 export default function SearchContent(){
 
     const[InputValue,setInputvalue]=useState("")
     const[newuserValue,setNewUserValue]=useState()
   
+    const notify = () => toast("Your data is Uploaded Successfully");
 
 function getUserInput(e){
 setInputvalue(e.target.value)
@@ -18,6 +22,7 @@ setInputvalue(e.target.value)
 
  function userdata(){
 setNewUserValue(InputValue)
+notify()
  
 
  }
@@ -27,7 +32,7 @@ setNewUserValue(InputValue)
  
     return <section className="container">
         <h2>{newuserValue}</h2>
-      
+        <ToastContainer />
         <div className='search-bar'>
         <input type='text' placeholder='search...' onChange={getUserInput}/>
         <br/>
